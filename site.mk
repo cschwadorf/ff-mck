@@ -132,8 +132,8 @@ PCI_PACKAGES_NET := \
 
 # misc packages
 MISC_PACKAGES := \
-	kmod-usb-acm \
-	kmod-usb-serial-simple
+	kmod-usb-acm #\
+#	kmod-usb-serial-simple
 
 USB_PACKAGES_MR3020 := \
 	kmod-nls-base \
