@@ -8,6 +8,7 @@ gluon-mesh-batman-adv-15 \
 gluon-alfred \
 gluon-autoupdater \
 gluon-authorized-keys \
+gluon-banner \
 gluon-config-mode-autoupdater \
 gluon-config-mode-contact-info \
 gluon-config-mode-core \
