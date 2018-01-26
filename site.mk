@@ -4,36 +4,32 @@
 ## Master Make File für Gluon Branch Master
 
 GLUON_SITE_PACKAGES := \
-gluon-mesh-batman-adv-15 \
-gluon-alfred \
-gluon-autoupdater \
-gluon-authorized-keys \
-gluon-config-mode-autoupdater \
-gluon-config-mode-contact-info \
-gluon-config-mode-core \
-gluon-config-mode-geo-location \
-gluon-config-mode-hostname \
-gluon-config-mode-mesh-vpn \
-gluon-ebtables-filter-multicast \
-gluon-ebtables-filter-ra-dhcp \
-gluon-ebtables-source-filter \
-gluon-web-admin \
-gluon-web-autoupdater \
-gluon-web-mesh-vpn-fastd \
-gluon-web-node-role \
-gluon-web-network \
-gluon-web-private-wifi \
-gluon-web-wifi-config \
-gluon-mesh-vpn-fastd \
-gluon-neighbour-info \
-gluon-radvd \
-gluon-setup-mode \
-gluon-status-page \
-gluon-wan-dnsmasq \
-haveged \
-iptables \
-iwinfo \
-
+    gluon-mesh-batman-adv-15 \
+    gluon-alfred \
+    gluon-respondd \
+    gluon-neighbour-info \
+    gluon-autoupdater \
+    gluon-setup-mode \
+    gluon-config-mode-core \
+    gluon-config-mode-autoupdater \
+    gluon-config-mode-hostname \
+    gluon-config-mode-mesh-vpn \
+    gluon-config-mode-geo-location \
+    gluon-config-mode-contact-info \
+    gluon-ebtables-filter-multicast \
+    gluon-ebtables-filter-ra-dhcp \
+    gluon-luci-admin \
+    gluon-luci-autoupdater \
+    gluon-luci-portconfig \
+    gluon-luci-private-wifi \
+    gluon-luci-node-role \
+    gluon-next-node \
+    gluon-mesh-vpn-fastd \
+    gluon-radvd \
+    gluon-status-page \
+    iwinfo \
+    iptables \
+    haveged
 
 # basic support for USB stack
 USB_PACKAGES_BASIC := \
