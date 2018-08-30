@@ -26,7 +26,6 @@ GLUON_SITE_PACKAGES := \
     gluon-web-private-wifi \
     gluon-web-wifi-config \
     gluon-mesh-batman-adv-15 \
-#    gluon-mesh-vpn-tunneldigger \
     gluon-mesh-vpn-fastd \
     gluon-neighbour-info \
     gluon-radvd \
@@ -46,6 +45,7 @@ GLUON_SITE_PACKAGES := \
     gluon-rsk-config \
     rsk-robinson
 
+#    gluon-mesh-vpn-tunneldigger \
 
 DEFAULT_GLUON_RELEASE := stable-2.10.0
 # Allow overriding the release number from the command line
